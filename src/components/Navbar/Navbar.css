@@ -1,0 +1,48 @@
+.navbar ul li {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.n-name img {
+  width: 80px;
+  height: 80px;
+}
+
+.form-inline a button {
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar ul li {
+    padding-top: 2rem;
+  }
+  .form-inline a button {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar ul li {
+    padding-top: 2rem;
+  }
+  .form-inline a button {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar ul li {
+    padding-top: 2rem;
+  }
+  .form-inline a button {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar ul li {
+    padding-top: 2rem;
+  }
+  .toggle {
+    width: auto;
+  }
+}
